@@ -1,0 +1,31 @@
+body{
+    font-size: large;
+}
+#heading{
+    text-align: center;
+}
+.displaybox{
+    display: grid;
+    grid-template-columns: 250px 200px 100px;
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-top: 15px;
+}
+#add-button{
+    background-color: rgb(14, 234, 14);
+    border-radius: 10px;
+    height: 40px;
+}
+input{
+    border-radius: 10px;
+}
+.delete-Button{
+    background-color: rgba(255, 17, 0, 0.785);
+    border-radius: 10px;
+    height: 40px;
+}
+.main{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
